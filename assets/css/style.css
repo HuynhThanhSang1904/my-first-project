@@ -92,7 +92,7 @@ html {
     line-height: 46px;
     text-decoration: none;
     padding: 0 24px;
-    display: inline-block;
+    display: block;
 }
 
 
@@ -140,6 +140,13 @@ html {
 }
 #header .mobile-menu-btn:hover .menu-icon{
     color: #000;
+}
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+
 }
 #header .mobile-menu-btn,
 #header .search-btn {
