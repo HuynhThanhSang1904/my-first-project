@@ -10,6 +10,13 @@
 
 /* Mobile */
 @media (max-width: 740px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100%;
+    }
+    .s-mt8 {
+        margin-top: 8px ;
+    }
     #nav {
         display: block;
     }
@@ -19,12 +26,26 @@
     #nav > li {
         display: block;
     } 
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
     #header .mobile-menu-btn {
         display: block;
     }
     #header .search-btn {
         display: none;
     }
-    /* github */
     
+    #header {
+    overflow: hidden;
+    }
+    
+    #content .member-img {
+        width: 60%;
+    }
 }

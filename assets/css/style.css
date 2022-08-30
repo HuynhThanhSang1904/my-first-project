@@ -63,6 +63,9 @@ html {
 .mt16 {
     margin-top: 16px !important;
 }
+.mt32 {
+    margin-top: 32px !important;
+}
 /* Begin header */
 #header {
     position: fixed;
@@ -72,7 +75,6 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 #nav {
     display: inline-block;
@@ -224,7 +226,7 @@ html {
     line-height: 1.4;
 }
 #content .member-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name {
@@ -277,7 +279,7 @@ html {
 }
 /* Place tour */
 .places-list{
-    margin-top: 32px;
+    margin-top: 16px;
 }
 .place-img:hover {
     opacity: 0.6;
