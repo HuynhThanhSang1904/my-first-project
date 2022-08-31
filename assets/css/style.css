@@ -317,6 +317,14 @@ html {
     width: 30px;
     display: inline-block;
 }
+.contact-info a {
+    opacity: 0.7;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-form .form-control {
     width: 100%;
     padding: 9px;
